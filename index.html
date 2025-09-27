@@ -83,8 +83,11 @@
     <main class="">
       <!-- hero bg -->
       <section
-        class="relative bg-gradient-to-r from-green-50 to-white py-16 lg:py-20"
+        class="relative bg-gradient-to-r from-green-50 to-white h-screen py-16 lg:py-30"
       >
+  
+
+      
         <div
           class="w-10/12 mx-auto flex flex-col-reverse lg:flex-row items-center gap-10"
         >
@@ -109,24 +112,8 @@
           </div>
 
           <!-- Right Content (Images) -->
-          <div class="lg:w-1/2 grid grid-cols-2 gap-4">
-            <div class="row-span-2">
-              <img
-                src="./src/images/banner1.png"
-                alt="team meeting"
-                class="rounded-2xl w-full h-full rounded-tr-2xl object-cover"
-              />
-            </div>
-            <img
-              src="./src/images/banner2.png"
-              alt="presentation"
-              class="rounded-2xl w-full h-auto object-cover"
-            />
-            <img
-              src="./src/images/banner3.png"
-              alt="workers"
-              class="rounded-2xl w-full h-48 object-cover"
-            />
+          <div>
+            <img src="./src/images/fcD.png.png" alt="">
           </div>
         </div>
       </section>
@@ -323,7 +310,7 @@
       <!-- another card section -->
       <section class="w-10/12 mx-auto py-12">
         <!-- Section heading -->
-        <h2 class="text-2xl md:text-3xl font-bold mb-8">
+        <h2 class="text-2xl md:text-3xl text-center md:text-left font-bold mb-8">
           Ultime notizie da UnoSicurezza
         </h2>
 
@@ -435,10 +422,10 @@
       </section>
 
       <!-- contact section -->
-      <section class=" px-4 my-20 relative flex items-center h-[900px]">
+      <section class="px-4 my-20 relative hidden items-center h-[900px]">
         <div
-              class="absolute top-0 right-0 w-[30%] h-[900px] bg-green-300 rounded-lg -z-10"
-            ></div>
+          class="absolute top-0 right-0 w-[30%] h-[900px] bg-green-300 rounded-lg -z-10"
+        ></div>
         <div class="grid w-10/12 mx-auto md:grid-cols-2 gap-8 items-center">
           <!-- Left Form -->
           <div>
@@ -503,12 +490,237 @@
           <!-- Right Map -->
           <div class="">
             <!-- Background Accent -->
-            
 
-            <iframe class="h-[700px] w-[600px]" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.1661106054776!2d90.42114065955246!3d23.81269151197819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c73499552657%3A0xed30abd127dd179f!2sMAK%20Tech%20Solution%20(Jamuna)!5e0!3m2!1sen!2sbd!4v1758975685898!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+              class="h-[700px] w-[600px]"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.1661106054776!2d90.42114065955246!3d23.81269151197819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c73499552657%3A0xed30abd127dd179f!2sMAK%20Tech%20Solution%20(Jamuna)!5e0!3m2!1sen!2sbd!4v1758975685898!5m2!1sen!2sbd"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
       </section>
+
+      <!-- footer -->
+      <footer class="bg-slate-800 text-white py-12 px-6">
+        <div class="w-10/12 mx-auto">
+          <div class="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-5 gap-8">
+            <!-- Logo Section -->
+            <div class="lg:col-span-1">
+              <div class="flex items-center mb-6">
+                <!-- Logo with graduation cap -->
+                <div>
+                  <img class="lg:w-38 w-32" src="./src/images/footerlogo.png" alt="">
+                </div>
+              </div>
+              <h2 class="text-emerald-400  text-xl font-semibold mb-8">
+                UnoSicurezza
+              </h2>
+
+              <!-- Copyright -->
+              <p class="text-gray-400 text-sm">
+                © 2022 UnoSicurezza. All rights reserved.
+              </p>
+            </div>
+
+            <!-- Prodotto Column -->
+            <div class="lg:col-span-1">
+              <h3 class="text-white font-semibold mb-4">Prodotto</h3>
+              <ul class="space-y-3">
+                <li>
+                  <a
+                    href="#"
+                    class="text-gray-300 hover:text-emerald-400 transition-colors"
+                    >Panoramica</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-gray-300 hover:text-emerald-400 transition-colors"
+                    >Caratteristiche</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-gray-300 hover:text-emerald-400 transition-colors"
+                    >Soluzioni</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-gray-300 hover:text-emerald-400 transition-colors"
+                    >Esercitazione</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-gray-300 hover:text-emerald-400 transition-colors"
+                    >Prezzi</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Azienda Column -->
+            <div class="lg:col-span-1">
+              <h3 class="text-white font-semibold mb-4">Azienda</h3>
+              <ul class="space-y-3">
+                <li>
+                  <a
+                    href="#"
+                    class="text-gray-300 hover:text-emerald-400 transition-colors"
+                    >Chi siamo</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-gray-300 hover:text-emerald-400 transition-colors"
+                    >Corso</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-gray-300 hover:text-emerald-400 transition-colors"
+                    >Notizia</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Sociale Column -->
+            <div class="lg:col-span-1">
+              <h3 class="text-white font-semibold mb-4">Sociale</h3>
+              <ul class="space-y-3">
+                <li>
+                  <a
+                    href="#"
+                    class="text-gray-300 hover:text-emerald-400 transition-colors"
+                    >Twitter</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-gray-300 hover:text-emerald-400 transition-colors"
+                    >LinkedIn</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-gray-300 hover:text-emerald-400 transition-colors"
+                    >Facebook</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-gray-300 hover:text-emerald-400 transition-colors"
+                    >Instagram</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Legale Column + App Downloads -->
+            <div class="lg:col-span-1">
+              <h3 class="text-white font-semibold mb-4">Legale</h3>
+              <ul class="space-y-3 mb-8">
+                <li>
+                  <a
+                    href="#"
+                    class="text-gray-300 hover:text-emerald-400 transition-colors"
+                    >Termini</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-gray-300 hover:text-emerald-400 transition-colors"
+                    >Privacy</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-gray-300 hover:text-emerald-400 transition-colors"
+                    >Biscotti</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-gray-300 hover:text-emerald-400 transition-colors"
+                    >Contatto</a
+                  >
+                </li>
+              </ul>
+
+              <!-- Download App Section -->
+              <div>
+                <h4 class="text-white font-semibold mb-4">Download App</h4>
+                <div class="flex flex-col space-y-3">
+                  <!-- Google Play Button -->
+                  <a href="#" class="inline-block">
+                    <div
+                      class="bg-black rounded-lg px-4 py-2 flex items-center space-x-3 hover:bg-gray-800 transition-colors"
+                    >
+                      <svg
+                        class="w-6 h-6 text-white"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                      >
+                        <path
+                          d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.61 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.92 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"
+                        />
+                      </svg>
+                      <div class="text-left">
+                        <div class="text-xs text-gray-300">GET IT ON</div>
+                        <div class="text-sm font-semibold text-white">
+                          Google Play
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+
+                  <!-- App Store Button -->
+                  <a href="#" class="inline-block">
+                    <div
+                      class="bg-black rounded-lg px-4 py-2 flex items-center space-x-3 hover:bg-gray-800 transition-colors"
+                    >
+                      <svg
+                        class="w-6 h-6 text-white"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                      >
+                        <path
+                          d="M18.71,19.5C17.88,20.74 17,21.95 15.66,21.97C14.32,22 13.89,21.18 12.37,21.18C10.84,21.18 10.37,21.95 9.1,22C7.79,22.05 6.8,20.68 5.96,19.47C4.25,17 2.94,12.45 4.7,9.39C5.57,7.87 7.13,6.91 8.82,6.88C10.1,6.86 11.32,7.75 12.11,7.75C12.89,7.75 14.37,6.68 15.92,6.84C16.57,6.87 18.39,7.1 19.56,8.82C19.47,8.88 17.39,10.1 17.41,12.63C17.44,15.65 20.06,16.66 20.09,16.67C20.06,16.74 19.67,18.11 18.71,19.5M13,3.5C13.73,2.67 14.94,2.04 15.94,2C16.07,3.17 15.6,4.35 14.9,5.19C14.21,6.04 13.07,6.7 11.95,6.61C11.8,5.46 12.36,4.26 13,3.5Z"
+                        />
+                      </svg>
+                      <div class="text-left">
+                        <div class="text-xs text-gray-300">Download on the</div>
+                        <div class="text-sm font-semibold text-white">
+                          App Store
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+      </footer>
     </main>
 
     <script type="module" src="/src/main.js"></script>
