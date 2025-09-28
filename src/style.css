@@ -3,4 +3,8 @@
 
 @theme{
   --color-btn-cl: #73BFA1
+  
+}
+@theme{
+  --breakpoint-3xl: 2560px;
 }
