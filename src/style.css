@@ -1,34 +1,33 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-@theme{
-  --color-btn-cl: #73BFA1
-  
+@theme {
+  --color-btn-cl: #73bfa1;
 }
-@theme{
+@theme {
   --breakpoint-3xl: 2560px;
 }
 
- @theme{
+@theme {
   --breakpoint-xxs: 320px;
- }
- .swiper {
-      width: 100%;
-      height: 100%;
-    }
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
 
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #444;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    .swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
