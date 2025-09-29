@@ -31,3 +31,95 @@
   height: 100%;
   object-fit: cover;
 }
+        /* Custom CSS variables for btn-cl color */
+        :root {
+            --btn-cl: #10b981; /* Emerald-500 equivalent */
+        }
+        
+        .text-btn-cl {
+            color: var(--btn-cl);
+        }
+        
+        .bg-btn-cl {
+            background-color: var(--btn-cl);
+        }
+        
+        .border-btn-cl {
+            border-color: var(--btn-cl);
+        }
+        
+        .hover\:bg-green-50:hover {
+            background-color: #f0fdf4;
+        }
+        
+        /* Custom Swiper Pagination Styles */
+        .swiper-pagination {
+            position: static !important;
+            margin-top: 2.5rem;
+        }
+        
+        .swiper-pagination-bullet {
+            width: 12px !important;
+            height: 12px !important;
+            background: #d1d5db !important;
+            opacity: 1 !important;
+            border-radius: 50% !important;
+            margin: 0 4px !important;
+            transition: all 0.3s ease !important;
+        }
+        
+        .swiper-pagination-bullet-active {
+            width: 48px !important;
+            background: var(--btn-cl) !important;
+            border-radius: 6px !important;
+        }
+        
+        /* Enable cursor grab */
+        .swiper {
+            cursor: grab;
+        }
+        
+        .swiper:active {
+            cursor: grabbing;
+        }
+        
+        /* Line clamp utilities */
+        .line-clamp-1 {
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        
+        .line-clamp-3 {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        
+        /* Adjusted card sizing */
+        .course-card {
+            min-height: 420px;
+            max-height: 450px;
+        }
+        
+        .course-image {
+            height: 200px;
+        }
+        
+        @media (min-width: 640px) {
+            .course-image {
+                height: 220px;
+            }
+        }
+        
+        @media (min-width: 1024px) {
+            .course-image {
+                height: 240px;
+            }
+            .course-card {
+                min-height: 480px;
+                max-height: 520px;
+            }
+        }

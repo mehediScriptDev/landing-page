@@ -1,27 +1,48 @@
-import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
-
-
-
-
-document.querySelector('#app').innerHTML = `
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>Hello Vite!</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
-  </div>
-`
-
-setupCounter(document.querySelector('#counter'))
+const swiper = new Swiper('.coursesSwiper', {
+            // Enable cursor grab
+            grabCursor: true,
+            
+            // Responsive breakpoints
+            slidesPerView: 1,
+            spaceBetween: 20,
+            breakpoints: {
+                // Mobile (default): 1 slide
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                // Medium devices: 2 slides
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                // Large devices: 3 slides
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 24,
+                }
+            },
+            
+            // Pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                dynamicBullets: false,
+            },
+            
+            // Loop mode
+            loop: false,
+            
+            // Smooth transitions
+            speed: 600,
+            
+            // Enable mouse wheel scrolling
+            mousewheel: {
+                forceToAxis: true,
+            },
+            
+            // Keyboard control
+            keyboard: {
+                enabled: true,
+            },
+        });
