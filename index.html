@@ -12,6 +12,8 @@
       src="https://kit.fontawesome.com/288dc013f9.js"
       crossorigin="anonymous"
     ></script>
+    
+    
   </head>
 
   <body class="font-poppins">
@@ -22,7 +24,7 @@
           class="flex justify-between gap-3 items-center lg:w-10/12 w-11/12 mx-auto py-7"
         >
           <div class="flex items-center">
-            <div class="dropdown">
+            <!-- <div class="dropdown">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                 <i class="fa-solid fa-bars"></i>
               </div>
@@ -45,6 +47,49 @@
                 <li><a>Collabora con noi</a></li>
                 <li><a>Contattaci</a></li>
               </ul>
+            </div> -->
+
+            <div class="drawer lg:hidden">
+              <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
+              <div
+                class="drawer-content flex flex-col items-center justify-center"
+              >
+                <!-- Page content here -->
+                <label
+                  for="my-drawer-2"
+                  class="btn btn-ghost drawer-button lg:hidden"
+                >
+                  <i class="fa-solid fa-bars"></i>
+                </label>
+              </div>
+              <div class="drawer-side">
+                <label
+                  for="my-drawer-2"
+                  aria-label="close sidebar"
+                  class="drawer-overlay"
+                ></label>
+                <ul
+                  class="menu bg-gradient-to-tr from-green-100 to-white text-base-content font-semibold min-h-full w-80 p-4"
+                >
+                  <!-- Sidebar content here -->
+                  <li><a class="text-btn-cl">Home</a></li>
+                <li>
+                  <details>
+                    <summary>Servizi</summary>
+                    <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li><a>Formazione</a></li>
+                <li><a>Chi siamo</a></li>
+                <li><a>Collabora con noi</a></li>
+                <li><a>Contattaci</a></li>
+
+
+                </ul>
+              </div>
             </div>
             <a class="btn btn-ghost text-xl p-0 text-teal-500">
               <img
@@ -506,9 +551,8 @@
           <!-- Right Map -->
           <div class="relative flex justify-center">
             <iframe
-              class="w-full 3xl:w-[500px] xl:w-[500px] h-[400px] 2xl:w-[600px]  border-2 border-btn-cl lg:border-transparent lg:h-[700px] rounded-lg shadow-lg lg:absolute  lg:right-0 lg:top-1/2 lg:-translate-y-1/2"
+              class="w-full 3xl:w-[500px] xl:w-[500px] h-[400px] 2xl:w-[600px] border-2 border-btn-cl lg:border-transparent lg:h-[700px] rounded-lg shadow-lg lg:absolute lg:right-0 lg:top-1/2 lg:-translate-y-1/2"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.1661106054776!2d90.42114065955246!3d23.81269151197819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c73499552657%3A0xed30abd127dd179f!2sMAK%20Tech%20Solution%20(Jamuna)!5e0!3m2!1sen!2sbd!4v1758975685898!5m2!1sen!2sbd"
-              
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
@@ -518,7 +562,7 @@
       </section>
 
       <!-- footer -->
-      <footer class="bg-slate-800 text-white py-12  px-6">
+      <footer class="bg-slate-800 text-white py-12 px-6">
         <div class="w-10/12 3xl:max-w-8/12 mx-auto">
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
             <!-- Logo Section -->
