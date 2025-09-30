@@ -12,7 +12,7 @@ class ResponsiveSlider {
             }
 
             getCardsPerView() {
-                if (window.innerWidth >= 1024) return 3; // lg
+                if (window.innerWidth >= 1180) return 3; // lg
                 if (window.innerWidth >= 768) return 2;  // md
                 return 1; // mobile
             }

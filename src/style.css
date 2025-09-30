@@ -31,7 +31,8 @@
                 flex: 0 0 50%;
             }
         }
-        @media (min-width: 1180px) {
+        
+        @media (min-width: 1100px) {
             .slider-card {
                 flex: 0 0 33.333333%;
             }
