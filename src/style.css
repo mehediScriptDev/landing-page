@@ -8,7 +8,7 @@
   --breakpoint-3xl: 2560px;
 }
 
-@theme {
+@theme { 
   --breakpoint-xxs: 320px;
 }
         .slider-container {
